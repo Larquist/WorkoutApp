@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -38,7 +39,17 @@ void workout() {
 
 void createWorkout() {
     cout << "-- Create a Workout --\n";
+    cout << "Please enter a name for the workout: ";
+    string workoutName{};
+    getline(cin, workoutName);
+    cin.clear();
 
+    cout << "Enter exercises below:\n";
+
+    // Loops through until user exits
+    /*while (true) {
+
+    }*/
     
 }
 
